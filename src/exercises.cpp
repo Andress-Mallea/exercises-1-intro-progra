@@ -1,7 +1,7 @@
 
 #include <cmath>
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
