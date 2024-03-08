@@ -6,11 +6,11 @@ using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
-        if (s1 < s2 and s1 < s3)
+        if (s1 < s2 && s1 < s3)
         {
             cout << s1 << endl;
         }
-        else if (s2 < s1 and s2 < s3)
+        else if (s2 < s1 && s2 < s3)
         {
             cout << s2 << endl;
         }
@@ -18,7 +18,7 @@ void exercise_1(string s1, string s2, string s3) {
         {
             cout << s3 << endl;
         }
-        
+
 }
 
 void exercise_2(double A, double B, double C) {
