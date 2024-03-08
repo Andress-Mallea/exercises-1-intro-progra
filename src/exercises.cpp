@@ -18,6 +18,7 @@ void exercise_1(string s1, string s2, string s3) {
         {
             cout << s3 << endl;
         }
+        
 }
 
 void exercise_2(double A, double B, double C) {
