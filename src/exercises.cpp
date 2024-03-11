@@ -119,6 +119,18 @@ void exercise_7(double r) {
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
+  if (seconds < 0)
+  {
+      cout << "Error: Input seconds cannot be negative." << endl;
+  }
+  else
+  {
+      long int H = seconds / 3600;
+      seconds %= 60*60;
+      long int min = seconds/60;
+      seconds %= 60;
+      cout << H << ":" << min << ":" << seconds << endl;
+  }
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
