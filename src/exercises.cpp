@@ -35,8 +35,7 @@ void exercise_2(double A, double B, double C) {
         }
         else
         {
-            cout << rm;
-            cout << rn << endl;
+            cout << rm << rn << endl;
         }
 }
 
