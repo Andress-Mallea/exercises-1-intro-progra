@@ -129,7 +129,7 @@ void exercise_8(long int seconds) {
       seconds %= 60*60;
       long int min = seconds/60;
       seconds %= 60;
-      cout << "0" << H << ":0" << min << ":0" << seconds << endl;
+      cout << "0" << H << ":0" << min << ":" << seconds << endl;
   }
 }
 
