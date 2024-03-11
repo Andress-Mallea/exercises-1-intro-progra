@@ -57,6 +57,21 @@ void exercise_3(int a, int b) {
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
+   if(a < b){
+      if (n < a && n < b ){
+          cout << n << endl;
+      }
+      else{ 
+      if(n > a && n < b)
+      {
+         cout << n-(n*x/100) << endl;
+      }
+      else
+      {
+         cout << n-(n*y/100) << endl;
+      }
+      }
+  }
 }
 
 void exercise_5(char character) {
