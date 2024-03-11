@@ -22,6 +22,22 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
+  double R = b*b - 4*a*c;
+        double rm = (-b + sqrt(R))/(2*a);
+        double rn = (-b - sqrt(R))/(2*a);
+        if (R < 0)
+        {
+            cout << "" << endl;
+        }
+        else if(rm == rn)
+        {
+            cout << rn << endl;
+        }
+        else
+        {
+            cout << rm;
+            cout << rn << endl;
+        }
 }
 
 void exercise_3(int a, int b) {
