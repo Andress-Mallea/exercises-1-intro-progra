@@ -23,16 +23,16 @@ void exercise_1(string s1, string s2, string s3) {
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
   double R = B*B - 4*A*C;
-        double R = b*b - 4*a*c;
-        double rm = (-b + sqrt(R))/(2*a);
-        double rn = (-b - sqrt(R))/(2*a);
-        if (b*b < 4*a*c || 2*a == 0){
-            cout << "" << endl;
-        }
-        else{
-             if (R < 0)
+        double rm = (-B + sqrt(R))/(2*A);
+        double rn = (-B - sqrt(R))/(2*A);
+       if( B*B < 4*A*C || 2*A == 0){
+            cout << "";
+
+       }
+       else{
+        if (R < 0)
         {
-            cout << "" << endl;
+            cout << "";
         }
         else if(rm == rn)
         {
@@ -40,9 +40,9 @@ void exercise_2(double A, double B, double C) {
         }
         else
         {
-            cout << rm  << rn << endl;
+            cout <<rm<<rn<< endl;
         }
-        }
+}
 }
 
 void exercise_3(int a, int b) {
