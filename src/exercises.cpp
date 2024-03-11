@@ -40,7 +40,8 @@ void exercise_2(double A, double B, double C) {
         }
         else
         {
-            cout <<rm<<rn<< endl;
+            cout <<rm;
+            cout <<rn<< endl;
         }
 }
 }
