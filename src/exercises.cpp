@@ -27,7 +27,7 @@ void exercise_2(double A, double B, double C) {
         double rn = (-B - sqrt(R))/(2*A);
         if (R < 0)
         {
-            cout << "" << endl;
+            cout << "";
         }
         else if(rm == rn)
         {
@@ -35,7 +35,7 @@ void exercise_2(double A, double B, double C) {
         }
         else
         {
-            cout << rm << rn << endl;
+            cout <<rm<<rn<< endl;
         }
 }
 
