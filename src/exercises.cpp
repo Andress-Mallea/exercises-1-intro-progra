@@ -208,7 +208,26 @@ void exercise_12(string color1, int numb1,
 
 string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
-  return "";
+  // TODO: YOUR CODE HERE
+  if (years_of_experience > age && years_of_experience < 18)
+  {
+      return "Not eligible";
+  }
+  else
+  {
+      if (years_of_experience >= 5)
+      {
+          return "Senior project manager";
+      }
+      else if (years_of_experience >= 3)
+      {
+          return "Project manager";
+      }
+      else
+      {
+          return "Project coordinator";
+      }
+  }
 }
 
 string exercise_14(int number_of_docs) {
