@@ -163,7 +163,7 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   }
   else
   {
-      return << "Aun sin suerte";
+      return "Aun sin suerte";
   }
 }
 
