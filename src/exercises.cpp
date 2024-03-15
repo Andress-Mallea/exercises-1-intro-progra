@@ -159,13 +159,12 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   cout << S1 + S2 + S3 + S4 + S5 << endl;
   if (S1 == S5)
   {
-      cout << "Hemos encontrado algo!";
+      return "Hemos encontrado algo!";
   }
   else
   {
-      cout << "Aun sin suerte";
+      return << "Aun sin suerte";
   }
-  return "";
 }
 
 int exercise_10(int a, int b) {
