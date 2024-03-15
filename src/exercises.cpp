@@ -156,6 +156,7 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   S3 = s3[0];
   S4 = s4[0];
   S5 = s5[0];
+  cout << S1 + S2 + S3 + S4 + S5 << endl;
   if (S1 == S5)
   {
       cout << "Hemos encontrado algo!";
@@ -164,7 +165,6 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   {
       cout << "Aun sin suerte";
   }
-  cout << S1 + S2 + S3 + S4 + S5 << endl;
   return "";
 }
 
