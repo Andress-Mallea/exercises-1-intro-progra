@@ -170,7 +170,7 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 int exercise_10(int a, int b) {
 if (a < 0 || b < 0)
   {
-      cout <<  0;
+      return  0;
   }
   else 
   {
@@ -183,7 +183,7 @@ if (a < 0 || b < 0)
           Ss++;
       }
       int P = Ss*S;
-      cout << P;
+      return P;
   }
 }
 
