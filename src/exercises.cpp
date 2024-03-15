@@ -232,6 +232,12 @@ string exercise_13(int age, int years_of_experience) {
 
 string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
+  switch (number_of_docs)
+  {
+    case 1: return "No se encontraron documentos";
+    case 2: return "Se encontro un documento";
+    case 3: return  number_of_docs, "documentos encontrados.";
+  }
   return "";
 }
 
