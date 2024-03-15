@@ -26,9 +26,16 @@ void exercise_2(double A, double B, double C) {
   double R = B*B - 4*A*C;
         double rm = (-B + sqrt(R))/(2*A);
         double rn = (-B - sqrt(R))/(2*A);
-       if (A == 0)
+        if (A == 0)
        {
+        if (B == 0)
+        {
+            cout << "";
+        }
+        else
+        {
         cout << -C/B << endl;
+        }
        }
        else
        {
