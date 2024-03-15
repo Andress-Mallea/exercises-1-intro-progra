@@ -209,7 +209,7 @@ void exercise_12(string color1, int numb1,
 string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
   // TODO: YOUR CODE HERE
-  if (years_of_experience > age && years_of_experience < 18)
+  if (years_of_experience > age && age < 18)
   {
       return "Not eligible";
   }
