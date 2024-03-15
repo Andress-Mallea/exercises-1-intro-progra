@@ -240,7 +240,7 @@ string exercise_14(int number_of_docs) {
     return "Se encontro un documento";
   }
   else{
-    return (number_of_docs + "documentos encontrados");
+    return (stoi(number_of_docs) + "documentos encontrados");
   }
 
 }
