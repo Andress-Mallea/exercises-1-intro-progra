@@ -25,6 +25,12 @@ void exercise_2(double A, double B, double C) {
   double R = B*B - 4*A*C;
         double rm = (-B + sqrt(R))/(2*A);
         double rn = (-B - sqrt(R))/(2*A);
+       if (A == 0)
+       {
+        cout << -C/B << endl;
+       }
+       else
+       {
        if( B*B < 4*A*C || 2*A == 0){
             cout << "";
 
@@ -42,7 +48,8 @@ void exercise_2(double A, double B, double C) {
         {
             cout <<rm << " " <<rn<< endl;
         }
-}
+        }
+       }
 }
 
 void exercise_3(int a, int b) {
@@ -129,7 +136,7 @@ void exercise_8(long int seconds) {
       seconds %= 60*60;
       long int min = seconds/60;
       seconds %= 60;
-      cout << "0" << H << ":0" << min << ":" << seconds << endl;
+      cout << setfill('0') << setw(2) << H << ":" << setfill('0') << setw(2) << min << ":" << setfill('0') << setw(2) << seconds << endl;
   }
 }
 
