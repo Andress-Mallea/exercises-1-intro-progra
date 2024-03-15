@@ -150,6 +150,21 @@ void exercise_8(long int seconds) {
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
+  string S1, S2, S3, S4, S5;
+  S1 = s1[0];
+  S2 = s2[0];
+  S3 = s3[0];
+  S4 = s4[0];
+  S5 = s5[0];
+  if (S1 == S5)
+  {
+      cout << "Hemos encontrado algo!" << endl;
+  }
+  else
+  {
+      cout << "Aun sin suerte" << endl;
+  }
+  cout << S1 + S2 + S3 + S4 + S5 << endl;
   return "";
 }
 
