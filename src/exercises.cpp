@@ -206,14 +206,15 @@ void exercise_12(string color1, int numb1,
                   if(color4 == color1){
                     cout << 1 << endl;
                   }
-                  else (numb4 == numb1){
+                  else (numb4 == numb1);
+                  {
                     cout << 1 << endl;
                   }
                   if (color4 == color2)
                   {
                     cout << 2 << endl;
                   }
-                  else (numb4 == numb2)
+                  else (numb4 == numb2);
                   {
                     cout << 2 << endl;
                   }
@@ -221,7 +222,7 @@ void exercise_12(string color1, int numb1,
                   {
                     cout << 3 << endl;
                   }
-                  else (numb4 == numb3)
+                  else (numb4 == numb3);
                   {
                     cout << 3 << endl;
                   }
