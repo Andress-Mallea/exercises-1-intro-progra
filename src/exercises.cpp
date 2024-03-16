@@ -207,37 +207,37 @@ void exercise_12(string color1, int numb1,
                   string b = "";
                   string c = "";
                   if(color4 == color1){
-                       a = 1;
+                       a = "1";
                   }
                   else (numb4 == numb1);
                   {
-                    a = 1;
+                    a = "1";
                   }
                   if (color4 == color2)
                   {
-                    b = 2;
+                    b = "2";
                   }
                   else (numb4 == numb2);
                   {
-                    b = 2;
+                    b = "2";
                   }
                   if (color4 == color3)
                   {
-                    c = 3; 
+                    c = "3"; 
                   }
                   else (numb4 == numb3);
                   {
-                    c = 3;
+                    c = "3";
                   }
-                  if (a == 1);
+                  if (a == "1");
                   {
                     cout << 1 << endl;
                   }
-                  if (b == 2);
+                  if (b == "2");
                   {
                     cout << 2 << endl;
                   }
-                  if (c == 3);
+                  if (c == "3");
                   {
                     cout << 3 << endl;
                   }
