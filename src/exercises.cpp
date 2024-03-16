@@ -203,8 +203,30 @@ void exercise_12(string color1, int numb1,
                  string color2, int numb2,
                  string color3, int numb3,
                  string color4, int numb4) {
-  // TODO: YOUR CODE HERE
-}
+                  if(color4 == color1){
+                    cout << 1 << endl;
+                  }
+                  else (numb4 == numb1){
+                    cout << 1 << endl;
+                  }
+                  if (color4 == color2)
+                  {
+                    cout << 2 << endl;
+                  }
+                  else (numb4 == numb2)
+                  {
+                    cout << 2 << endl;
+                  }
+                  if (color4 == color3)
+                  {
+                    cout << 3 << endl;
+                  }
+                  else (numb4 == numb3)
+                  {
+                    cout << 3 << endl;
+                  }
+                 }
+
 
 string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
