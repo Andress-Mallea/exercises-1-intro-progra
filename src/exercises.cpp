@@ -296,8 +296,68 @@ string exercise_14(int number_of_docs) {
 
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
+
 }
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
+  int h1 = 0;
+  int h2 = 0;
+  
+   if ( debut == fin )
+   {
+       cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
+   }
+   else if (fin < debut)
+   {
+       cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
+   }
+   else if (debut < fin && debut > 0 && debut < 24 && fin > 0 && debut < 24 )
+   {
+           if ( debut < 7 )
+           {
+               h1 = 7 - debut;
+           }
+           else;
+           {
+               if (debut < 17)
+               {
+                   h1 = (17 - debut)*2;
+               }
+               else
+               {
+                   h1 = debut - 17;
+               }
+           }
+           if ( fin < 7 )
+           {
+               h1 = 7 - fin;
+           }
+           else;
+           {
+               if (fin < 17){
+                   h2 = (17 - fin)*2;
+               }
+               else{
+                   h2 = fin - 17;
+               }
+           }
+           int h3 = h1 + h2;
+           if (debut < 7 && fin > 17)
+           {
+               h3 = h3 + 20;
+           }
+           h1 = h1/2;
+           string h1s = to_string(h1);
+           string h2s = to_string(h2);
+           string h3s = to_string(h3);
+           cout << "Haz alquilado una bicicleta por" << endl;
+           cout << h2s + " hora(s) con el tarifario de 1 boliviano(s)" << endl;
+           cout << h1s + " hora(s) con el tarifario de 2 boliviano(s)" << endl;
+           cout << "El monto total a pagar es de " + h3s + " boliviano(s)" << endl;
+   }
+   else
+   {
+       cout << "Las horas deben estar entre 0 y 24!" << endl;
+   }
 }
