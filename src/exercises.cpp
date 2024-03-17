@@ -203,46 +203,56 @@ void exercise_12(string color1, int numb1,
                  string color2, int numb2,
                  string color3, int numb3,
                  string color4, int numb4) {
-                  string a = "";
-                  string b = "";
-                  string c = "";
-                  if(color4 == color1){
-                       a = "1";
-                  }
-                  else (numb4 == numb1);
+                     if(color4 != color1 && color4 != color2 && color4 != color3 && numb4 != numb1 && numb4 != numb2 && numb4 != numb3){
+                         cout << "" << endl;
+                     }
+                     else{
+                     if (color4 == "?")
+                     {
+                       if(numb4 == numb1)
                   {
-                    a = "1";
+                       cout << 1 << endl;
                   }
-                  if (color4 == color2)
-                  {
-                    b = "2";
-                  }
-                  else (numb4 == numb2);
-                  {
-                    b = "2";
-                  }
-                  if (color4 == color3)
-                  {
-                    c = "3"; 
-                  }
-                  else (numb4 == numb3);
-                  {
-                    c = "3";
-                  }
-                  if (a == "1");
-                  {
-                    cout << 1 << endl;
-                  }
-                  if (b == "2");
+                  if (numb4 == numb2)
                   {
                     cout << 2 << endl;
                   }
-                  if (c == "3");
+                  if (numb4 == numb3)
                   {
-                    cout << 3 << endl;
+                    cout << 3 << endl; 
                   }
+                     }
+                     else if(numb4 == -1)
+                     {
+                         if(color4 == color1)
+                  {
+                       cout << 1 << endl;
+                  }
+                  if (color4 == color2)
+                  {
+                    cout << 2 << endl;
+                  }
+                  if (color4 == color3)
+                  {
+                    cout << 3 << endl; 
+                  }
+                     }
+                     else{
+                         if(color4 == color1 && numb4 == numb1)
+                  {
+                       cout << 1 << endl;
+                  }
+                  if (color4 == color2 && numb4 == numb2)
+                  {
+                    cout << 2 << endl;
+                  }
+                  if (color4 == color3 && numb4 == numb3)
+                  {
+                    cout << 3 << endl; 
+                  }
+                     }
+                     }
                  }
-
 
 string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
