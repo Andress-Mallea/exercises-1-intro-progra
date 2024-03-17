@@ -374,3 +374,4 @@ int h1 = 0;
            cout << "El monto total a pagar es de " + h3s + " boliviano(s)" << endl;
            }
 }
+}
