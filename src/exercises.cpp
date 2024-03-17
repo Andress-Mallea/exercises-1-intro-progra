@@ -301,12 +301,16 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
-  int h1 = 0;
+int h1 = 0;
   int h2 = 0;
   
    if ( debut == fin )
    {
        cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
+   }
+   else if (debut < 0 || debut > 24 || fin < 0 || fin > 24)
+   {
+       cout << "Las horas deben estar entre 0 y 24!" << endl;
    }
    else if (fin < debut)
    {
@@ -318,7 +322,7 @@ void exercise_16(int debut, int fin) {
            {
                h1 = 7 - debut;
            }
-           else;
+           else
            {
                if (debut < 17)
                {
@@ -331,7 +335,7 @@ void exercise_16(int debut, int fin) {
            }
            if ( fin < 7 )
            {
-               h1 = 7 - fin;
+               h2 = 7 - fin;
            }
            else;
            {
@@ -347,17 +351,26 @@ void exercise_16(int debut, int fin) {
            {
                h3 = h3 + 20;
            }
-           h1 = h1/2;
+           h2 = h2/2;
+           int d = h2;
+           h2 = h1;
+           h1 = d;
            string h1s = to_string(h1);
            string h2s = to_string(h2);
            string h3s = to_string(h3);
-           cout << "Haz alquilado una bicicleta por" << endl;
-           cout << h2s + " hora(s) con el tarifario de 1 boliviano(s)" << endl;
-           cout << h1s + " hora(s) con el tarifario de 2 boliviano(s)" << endl;
-           cout << "El monto total a pagar es de " + h3s + " boliviano(s)." << endl;
-   }
-   else
-   {
-       cout << "Las horas deben estar entre 0 y 24!" << endl;
-   }
+           if (h1 == 0)
+           {
+            cout << h2s + " hora(s) con el tarifario de 2 boliviano(s)" << endl;
+           cout << "El monto total a pagar es de " + h3s + " boliviano(s)" << endl;
+           }
+           else if (h2 == 0)
+           {
+            cout << h1s + " hora(s) con el tarifario de 1 boliviano(s)" << endl;
+            cout << "El monto total a pagar es de " + h3s + " boliviano(s)" << endl;
+           }
+           else{
+           cout << h1s + " hora(s) con el tarifario de 1 boliviano(s)" << endl;
+           cout << h2s + " hora(s) con el tarifario de 2 boliviano(s)" << endl;
+           cout << "El monto total a pagar es de " + h3s + " boliviano(s)" << endl;
+           }
 }
